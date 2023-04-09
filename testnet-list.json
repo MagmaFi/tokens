@@ -1,0 +1,77 @@
+{
+  "name": "Magma Token List",
+  "logoURI": "https://github.com/magmafi.png",
+  "keywords": ["audited", "verified", "special tokens"],
+  "tags": {
+    "stablecoin": {
+      "name": "Stablecoin",
+      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
+    "volatilecoin": {
+      "name": "Volatilecoin",
+      "description": "Tokens that are NOT fixed to an external asset, e.g. the US dollar"
+    }
+  },
+  "timestamp": "2022-10-04T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 5001,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0xbAF72402f98f16e77638Ce5FCC5689CD1627E8ff",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 5001,
+      "name": "Magma",
+      "symbol": "MAGMA",
+      "address": "0x15C2339851622aac09948714D72EeEc64A0d9be7",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/kVO6weI.png",
+      "tags": ["volatilecoin"]
+    },
+    {
+      "chainId": 5001,
+      "name": "Wrapped BIT",
+      "symbol": "wBIT",
+      "address": "0xc0A7F1B0c9988FbC123f688a521387A51596da47",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/oQHfzWV.png",
+      "tags": ["volatilecoin"]
+    },
+    {
+      "chainId": 5001,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x093790D873e87B45Cee9CA70B12056C705861ecD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/thumb/Tether.png?1668148663",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 5001,
+      "name": "DAI",
+      "symbol": "DAI",
+      "address": "0xa35d7f5dd89a336A427Ebb63C428C3068b6c3105",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/large/4943.png?1636636734",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 5001,
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "address": "0x9155d6bFD923398D77292a2781D3E4acfD3cFFd6",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744",
+      "tags": ["volatilecoin"]
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "patch": 0
+  }
+}
